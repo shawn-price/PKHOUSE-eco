@@ -22,7 +22,7 @@
     "jsx": "preserve",
     "paths": {
       "@/*": [
-        "./src/*"
+        "./*"
       ]
     },
     "allowJs": true,
@@ -38,7 +38,8 @@
     ]
   },
   "include": [
-    "src",
+    "app",
+    "lib",
     ".next/types/**/*.ts"
   ],
   "references": [
